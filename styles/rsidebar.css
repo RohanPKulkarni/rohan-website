@@ -1,0 +1,512 @@
+.rsidebar{
+    position:fixed;
+    right:3px;
+    bottom:0;
+    top:58px;
+    width:355px;
+    padding-bottom: 10px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+.ad{
+    display:flex;
+    flex-direction: column;
+    margin-top: -8px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    margin-left: 14px;
+    margin-right: 0px;
+    box-shadow: 3px 0px 5px rgba(240,240,240,0.8);
+
+    
+}
+
+
+.ad1,.ad2{
+    height: 147px;
+    display: flex;
+    flex-direction: row;
+    margin-left: -12px;
+    padding-right: 10px;
+    border-radius: 10px;
+    position: relative;
+    align-items: center;
+
+}
+
+.ad1{
+    align-items: center;
+}
+
+.ad2{
+    position: relative;
+    padding-left: 6px;
+}
+
+.ad1:hover,.ad2:hover{
+    background-color: rgb(233, 233, 233);
+    transition: background-color 0.15s;
+    cursor: pointer;
+}
+
+.ad1:active,.ad2:active{
+    background-color: rgb(213, 213, 213);
+    transition: background-color 0.15s;
+}
+
+
+.contacts{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -8px;
+    margin-left: 5.5px;
+    position: relative;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(196, 196, 196);
+
+}
+
+.rsidebar::-webkit-scrollbar{
+    width:0.5vi;
+
+}
+
+.rsidebar::-webkit-scrollbar-track{
+    background-color: rgb(247, 247, 247);
+}
+
+.rsidebar::-webkit-scrollbar-thumb{
+    border-radius: 6px;
+    background-color: rgb(190, 187, 187);
+}
+
+.rsidebar:hover{
+    overflow-y: scroll;
+    transition: overflow-y 0.25s; 
+
+}
+
+.adinfo{
+    margin-top: 22px;
+    margin-left: 13px;
+    font-size: 17px;
+    font-family: Roboto;
+    font-weight:450;
+    color: rgb(120, 120, 120);
+}
+
+.contacts div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height:51px;
+    border-radius: 10px;
+    
+}
+
+.contacts div:hover{
+    background-color: rgb(232, 232, 232);
+    cursor: pointer;
+}
+
+.contacts div:active{
+    background-color: rgb(218, 218, 218);
+}
+
+
+.PFP{
+    height: 35px;
+    width: 35px;
+    margin-left: 7px;
+    background-color: rgb(168, 168, 168);
+    border-radius: 20px;
+}
+
+.NAME{
+    margin-left: 11.1px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Roboto;
+}
+
+.adpfp1{
+    width:152px;
+}
+
+.adpfp2{
+    width:158px;
+    margin-left: -6px;
+    padding-right: 6px;
+}
+    
+.neck{
+    width: 125px;
+    height:126px;
+    padding: 12px 8px 8px 13px;
+    border-radius: 20px;
+}
+
+.sbh{
+    width: 125px;
+    height:126px;
+    padding: 12px 8px 8px 13px;
+    border-radius: 20px;
+}
+
+
+.adt1{
+    font-weight:500;
+    font-family: Roboto;
+    margin-left: 10px;
+}
+
+.adt2{
+    font-weight:lighter;
+    font-size:13.5px;
+    color: rgb(65, 65, 65);
+    margin-left: 10px;
+    margin-top: -11px;
+}
+
+.adt3{
+    font-weight:500;
+    font-family: Roboto;
+    margin-left: 10px;
+}
+
+.adt4{
+    font-weight:lighter;
+    font-size:13.5px;
+    color: rgb(65, 65, 65);
+    margin-left: 10px;
+    margin-top: -11px;
+}
+
+.upsec{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+}
+
+.conts{
+    font-family: Roboto;
+    margin-right: -20px;
+    padding-left: 10px;
+    color: rgb(115, 115, 115);
+    font-weight:450;
+    font-size: 17px;
+}
+
+.imgg2{
+    margin-left: 175px;
+    margin-top: 12px;
+    object-fit: contain;
+    margin-right: -1px;
+    height: 20px;
+    width:22px;
+    padding: 6px 4px 4px 4px;
+    border-radius: 15px;
+   
+    
+}
+
+.imgg3{
+    margin-top: 12px;
+    margin-left: 7px;
+    margin-right: 18px;
+    padding: 7px 1px 4px 9px;
+    height: 20px;
+    width:22px;
+    border-radius: 15px;
+}
+
+
+.imgg4{
+    margin-top: 12px;
+    padding: 6px 2px 5px 7px;
+    height: 20px;
+    width:22px;
+    margin-right: 2px;
+    margin-left: -12px;
+    border-radius: 15px;
+}
+
+.im1{
+    width: 7px;
+    height:12px;
+    width:20px;
+    margin-left: 0px;
+    margin-right: -2px;
+}
+
+.im2{
+    width: 15px;
+    height:15px;
+    margin-left: 0px;
+    margin-bottom: -1px;
+}
+
+
+.im3{
+    width: 17px;
+    height:14px;
+    margin-left: 0px;
+    margin-bottom: -1px;
+    
+}
+
+.imgg2:hover,.imgg3:hover,.imgg4:hover{
+    background-color: rgb(233, 233, 233);
+    cursor: pointer;
+}
+
+.imgg2:active,.imgg3:active,.imgg4:active{
+    background-color: rgb(218, 213, 213);
+}
+
+.tk1,.tk2,.tk3{
+    position: absolute;
+    white-space:nowrap;
+}
+
+.tk1{
+    background-color: rgb(52, 52, 52);
+    font-weight: 100;
+    position: absolute;
+    margin-left: -43px;
+    margin-top: 3px;
+    width:42px;
+    padding: 9px 16px 10px 10px;
+    color:white;
+    font-size:smaller;
+    font-family: Roboto;
+    opacity:0;
+    pointer-events: none;
+    transition: opacity .4s;
+    transition-timing-function: cubic-bezier(1,0,0,.001);
+    border-radius: 10px;
+    z-index: 10;
+
+}
+
+.tk2{
+    background-color: rgb(52, 52, 52);
+    font-weight: 100;
+    position: absolute;
+    margin-left: -150px;
+    margin-top: 3px;
+    width:42px;
+    padding: 8px 126px 9px 10px;
+    color:white;
+    font-size:smaller;
+    font-family: Roboto;
+    opacity:0;
+    pointer-events: none;
+    transition: opacity .4s;
+    transition-timing-function: cubic-bezier(1,0,0,.001);
+    border-radius: 10px;
+    z-index: 10;
+
+}
+
+.tk3{
+    background-color: rgb(52, 52, 52);
+    font-weight: 100;
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 4px;
+    width:42px;
+    padding: 8px 12px 9px 10px;
+    color:white;
+    font-size:smaller;
+    font-family: Roboto;
+    opacity:0;
+    pointer-events: none;
+    transition: opacity .4s;
+    transition-timing-function: cubic-bezier(1,0,0,.001);
+    border-radius: 10px;
+    z-index: 10;
+
+}
+
+.imgg2:hover .tk1{
+    opacity: 0.90;
+}
+
+.imgg3:hover .tk2{
+    opacity: 0.90;
+}
+
+.imgg4:hover .tk3{
+    opacity: 0.90;
+}
+
+.lastrs{
+    font-family: Roboto;
+    margin-right: -20px;
+    padding-left: 10px;
+    color: rgb(115, 115, 115);
+    font-weight:450;
+    font-size: 17px;
+}
+
+.l21{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height:51px;
+    border-radius: 10px;
+    margin-top: -7px;
+    margin-left: 7px;
+    
+}
+
+.l21:hover{
+    background-color: rgb(231, 231, 231);
+    cursor: pointer;
+}
+
+.l21:active{
+    background-color: rgb(218, 218, 218);
+}
+
+.PFPp{
+    height: 35px;
+    width: 35px;
+    margin-left: 7px;
+    background-color: rgb(168, 168, 168);
+    border-radius: 20px;
+    object-fit:contain;
+}
+
+
+
+.N1{
+    height: 33px;
+    width:27px;
+    position: absolute;
+}
+
+.N2{
+    height: 32px;
+    width:25px;
+    position: absolute;
+}
+
+
+
+.N1{
+    padding-left: 7px;
+    margin-left: 295px;
+    margin-right: 0px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 90px;
+    border-radius: 30px;
+    opacity: 0;
+    box-shadow: 0px 2px 3px rgb(151, 151, 151);
+}
+
+.N2{
+    padding-top: 1px;
+    padding-left: 9px;
+    padding-right: 0px;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 290px;
+    margin-bottom: 95px;
+    opacity: 0;
+    border-radius: 5px solid rgb(0, 0, 0);
+    box-shadow: 0px 2px 3px rgb(151, 151, 151);
+}
+
+
+.N1:hover,.N2:hover{
+    background-color: rgb(233, 233, 233);
+    cursor: pointer;
+}
+
+.N1:active,.N2:active{
+    background-color: rgb(218, 213, 213);
+}
+
+
+
+.n1{
+    height: 8px;
+    width: 20px;
+    margin-left: 0px;
+    margin-top: 13px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.n2{
+    height: 8px;
+    width: 20px;
+    margin-left: -2px;
+    margin-top: 12px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.ad1:hover .N1{
+    opacity: 1;
+}
+
+.ad2:hover .N2{
+    opacity: 1;
+}
+
+.fix{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    height:50px;
+    width:50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    box-shadow: 0px 2px 3px rgb(151, 151, 151);
+
+}
+
+.NM{
+    padding: 15px 0px 0px 15px;
+    width: 20px;
+    height: 20px;
+}
+
+.fix:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.fix:active{
+    background-color: rgb(234, 234, 234);
+}
+
+.NM1{
+    background-color: rgb(52, 52, 52);
+    font-weight: 100;
+    position: absolute;
+    margin-left: -100px;
+    margin-top: -28px;
+    width:90px;
+    padding: 9px 2px 10px 9px;
+    color:white;
+    font-size:smaller;
+    font-family: Roboto;
+    opacity:0;
+    pointer-events: none;
+    transition: opacity .4s;
+    transition-timing-function: cubic-bezier(1,0,0,.001);
+    border-radius: 10px;
+    z-index: 10;
+
+}
+
+.fix:hover .NM1{
+    opacity: 0.90;
+}
+

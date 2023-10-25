@@ -1,0 +1,190 @@
+.lsidebar{
+    position:fixed;
+    left:0;
+    bottom:0;
+    top:57px;
+    width:350px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+
+}
+
+.sb{
+
+    margin-top: 12px;
+    margin-left: 10px;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: -3px;
+    
+    
+}
+
+
+.sb div{
+    height:52.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+
+}
+
+.photo{
+    width:50px;
+
+}
+
+.pfp{
+    height:35px;
+    width: 37px;
+    border-radius: 25px;
+    
+    padding : 8px 6px 5px 7px;
+    object-fit: cover;
+    
+}
+
+.pfpd{
+    height:30px;
+    width: 28px;
+    border-radius: 25px;
+    
+    padding : 5px 6px 11px 11px;
+    object-fit: cover;
+    
+}
+
+
+
+.pfpa{
+    height:30px;
+    width: 28px;
+    border-radius: 25px;
+    
+    padding : 9px 6px 11px 11px;
+    object-fit: cover;
+    
+}
+
+.pfpc{
+    height:30px;
+    width: 30px;
+    border-radius: 25px;
+    padding : 6px 6px 11px 12px;
+    object-fit: cover;
+    
+}
+
+
+.pfpb{
+    height:26px;
+    width: 26px;
+    border-radius: 25px;
+    
+    padding : 9px 6px 10px 11px;
+    object-fit: cover;
+    
+}
+
+
+
+
+.pfpx{
+    height:33px;
+    width: 37px;
+    border-radius: 25px;
+    
+    padding : 8px 6px 5px 7px;
+    object-fit: cover;
+    
+}
+
+
+.pfp1{
+    height:35px;
+    width: 37px;
+    border-radius: 25px;
+    
+    padding : 8px 6px 5px 7px;
+    object-fit:contain;
+
+}
+
+.desc{
+    padding-left: 10px;
+}
+
+.desc p{
+    font-size: 15px;
+    font-weight:430;
+    font-family: Roboto;
+}
+
+.lsidebar::-webkit-scrollbar{
+    width:0.5vi;
+
+}
+
+.lsidebar::-webkit-scrollbar-track{
+    background-color: rgb(247, 247, 247);
+}
+
+.lsidebar::-webkit-scrollbar-thumb{
+    border-radius: 6px;
+    background-color: rgb(190, 187, 187);
+}
+
+.lsidebar:hover{
+    overflow-y: scroll;
+    transition: overflow-y 0.15s; 
+
+}
+
+.name{
+    border-radius: 5px;
+}
+
+.name:hover{
+    background-color: rgb(237, 237, 237);
+    cursor: pointer;
+}
+
+.name:active{
+    background-color: rgb(221, 220, 220);
+}
+
+
+
+.last{
+    padding-bottom: 20px;
+}
+    
+.L1,.L2{
+    display:flex;
+    flex-direction: column;
+    font-size: 13.5px;
+    font-weight:lighter;
+    height: 20px;
+    padding: 0px 15px 0px 15px;
+
+}
+
+
+    
+.word:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+.more:hover{
+    cursor: pointer;
+}
+
+
+
+
